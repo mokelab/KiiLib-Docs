@@ -17,7 +17,7 @@ baseName: index
 
 [公式ドキュメント](http://docs.kii.com/ja/starts/overview/)を参照してください。
 
-## [機能編](./features/)
+## [機能編](./features/index_ja.html)
 
 KiiLibで利用可能な機能を紹介します。
 

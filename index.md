@@ -5,7 +5,7 @@ baseName: index
 
 # KiiLib Documentation
 
-This documents provides a usage of KiiLib libraries.
+This documents provide a usage of KiiLib libraries.
 
 - [KiiLib-Java / KiiLib-Android](https://github.com/fkmhrk/KiiLib-Java)
 - [KiiLib-TypeScript](https://github.com/fkmhrk/kiilib_typescript)

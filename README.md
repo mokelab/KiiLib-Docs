@@ -1,4 +1,4 @@
 # KiiLib-Docs
 Documentation for KiiLib family. Please see jekyll output 
 
-http://fkmhrk.github.io/KiiLib-Docs/
+http://mokelab.github.io/KiiLib-Docs/

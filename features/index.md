@@ -7,7 +7,7 @@ baseName: index
 
 KiiLib provides the following features. 
 
-- User Management
+- [User Management](./user-management/)
 - Group Management
 - Data Management
 - Push Notification

@@ -26,7 +26,16 @@ The following snippet shows how to sign up a user with the username `user_123456
 ### Python
 
 {% highlight python %}
+
 import kiilib
+
+context = kiilib.KiiContext({APP_ID}, {APP_KEY}, {BASE_URL})
+app = kiilib.AppAPI(context)
+
+login = 'user_123456'
+password = '123ABC'
+user = app.signup(login, password)
+print user
 
 {% endhighlight %}
 
@@ -57,7 +66,17 @@ The following snippet shows how to sign up a user with the phone number `+819012
 ### Python
 
 {% highlight python %}
+
 import kiilib
+
+context = kiilib.KiiContext({APP_ID}, {APP_KEY}, {BASE_URL})
+app = kiilib.AppAPI(context)
+
+login = None
+phone = '+819012345678'
+password = '123ABC'
+user = app.signup(login, password, phoneNumber = phone)
+print user
 
 {% endhighlight %}
 
@@ -88,7 +107,17 @@ The following snippet shows how to sign up a user with the email address `user_1
 ### Python
 
 {% highlight python %}
+
 import kiilib
+
+context = kiilib.KiiContext({APP_ID}, {APP_KEY}, {BASE_URL})
+app = kiilib.AppAPI(context)
+
+login = None
+email = 'user_123456@example.com'
+password = '123ABC'
+user = app.signup(login, password, emailAddress = email)
+print user
 
 {% endhighlight %}
 

@@ -26,6 +26,11 @@ import kiilib
 context = kiilib.KiiContext({APP_ID}, {APP_KEY}, {BASE_URL})
 app = kiilib.AppAPI(context)
 
+login = 'user_123456'
+password = '123ABC'
+user = app_api.login(login, password)
+print 'access_token:%s\nuser_id:%s' % (context.access_token, user.id)
+
 {% endhighlight %}
 
 ### PHP
@@ -61,6 +66,11 @@ import kiilib
 context = kiilib.KiiContext({APP_ID}, {APP_KEY}, {BASE_URL})
 app = kiilib.AppAPI(context)
 
+email = 'user_123456@example.com'
+password = '123ABC'
+user = app_api.login(email, password)
+print 'access_token:%s\nuser_id:%s' % (context.access_token, user.id)
+
 {% endhighlight %}
 
 ### PHP
@@ -95,6 +105,11 @@ import kiilib
 
 context = kiilib.KiiContext({APP_ID}, {APP_KEY}, {BASE_URL})
 app = kiilib.AppAPI(context)
+
+phone = '+819012345678'
+password = '123ABC'
+user = app_api.login(phone, password)
+print 'access_token:%s\nuser_id:%s' % (context.access_token, user.id)
 
 {% endhighlight %}
 
